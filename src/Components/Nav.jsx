@@ -1,23 +1,15 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import logo from "../logo.svg";
-
+import style from "../styles/nav.module.scss";
 const Nav = () => {
   return (
-    <header className="App-header">
+    <div className={style.nav}>
       <div>
-        <img src={logo} className="App-logo" alt="logo" />
-        <h1>Reactjs</h1>
-      </div>
-      <div className="links">
-        <Link to="/" className="App-link">
-          People
-        </Link>
-        <Link to="/friends" className="App-link">
-          Friends
+        <Link to="/">
+          <h1>Blog Page Home</h1>
         </Link>
       </div>
-    </header>
+    </div>
   );
 };
 export default Nav;

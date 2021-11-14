@@ -1,0 +1,36 @@
+.postContainer {
+  padding: 2rem;
+  margin: 2rem;
+  background-color: #202940;
+  border-radius: 12px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+  width: 60vw;
+  .nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    .header {
+      border-bottom: 2px solid white;
+      .title {
+        font-size: 1.7em;
+        // text-align: center;
+        text-transform: uppercase;
+        color: #36d1fc;
+      }
+      .category {
+        color: rgb(184, 184, 184);
+        font-size: 0.9em;
+        margin-bottom: 1rem;
+      }
+    }
+  }
+
+  .content {
+    margin-top: 1rem;
+    p {
+      color: #fff;
+      line-height: 150%;
+      letter-spacing: 0.04em;
+    }
+  }
+}
